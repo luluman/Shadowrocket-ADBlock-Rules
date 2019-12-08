@@ -13,8 +13,8 @@ import re
 
 
 rules_url = [
-    # EasyList China
-    #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
+    # EasyList 
+    'https://easylist.to/easylist/easylist.txt',
     # EasyList + China
     'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
     # 乘风 广告过滤规则

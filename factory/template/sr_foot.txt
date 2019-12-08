@@ -2,4 +2,14 @@
 [URL Rewrite]
 ^http://(www.)?google.cn https://www.google.com 302
 
+# Youtube
+^https?://m.youtube.com/_get_ads - reject
+^https?://pagead2.googlesyndication.com/pagead/ - reject
+^https?://s0.2mdn.net/ads/ - reject
+^https?://stats.tubemogul.com/stats/ - reject
+
+^https?://(www.)?g.cn https://www.google.com.hk 302
+^https?://(www.)?google.cn https://www.google.com.hk 302
+^https?://youtube.com https://www.youtube.com 302
+
 # By Moshel @ https://hzy.pw/
